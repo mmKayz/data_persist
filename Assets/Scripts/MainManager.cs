@@ -28,7 +28,8 @@ public class MainManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //zh
+        //zh -- adding a comment because I need multiple commits.  
+        //But I did this all at once... so yeah.
         SetBestScore(DataManager.GetHighScoreName(), DataManager.LoadHighScore(), true);
 
         const float step = 0.6f;
